@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omlet</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+p {
+    font-size: 16px;
+    color: #645452;
+}
+li {
+    margin-left: 9.6px;
+    padding-bottom: 12.8px;
+    color: #645452;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8%;
+}
+
+main {
+    width: 80%;
+    max-width: 720px;
+    background-color: white;
+    border-radius: 8%;
+    margin: 100% auto;
+    padding: 0px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.omelette-h {
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--dark-charcoal);
+    padding: 16px 0;
+}
+
+.omelette-p {
+    padding-bottom: 16px;
+}
+
+.omelette-pre {
+    border-radius: 16px;
+    background-color: #FBEEE8;
+    padding: 24px;
+    margin: 16px 0;
+}
+
+.pre-h {
+    color: #872657;
+    padding-bottom: 16px;
+    
+}
+
+.i-h, .ins-h, .nt-h {
+    color: #81422C;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.i, .ins, .nt {
+    margin: 24px 0;
+}
+
+.ins-link {
+    color: #81422C;
+    margin-left: 24px;
+    font-weight: 600;
+}
+
+.i-link {
+    margin-left: 6px;
+    font-weight: normal;
+    color: #645452;
+}
+
+.nt-p {
+    padding-bottom: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1.5px solid lightgray;
+}
+
+td {
+    padding: 16px 36px;
+}
+.nt-names {
+    color: #645452;
+    font-weight: 400;
+}
+
+.nt-weight {
+    color: #81422C;
+    font-weight: 600;
+}
+    body {
+        font-family: 'Young Serif', serif;
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: bisque;
+    }
+    main {
+        width: 100%;
+        max-width: 720px;
+        background-color: white;
+        border-radius: 16px;
+        margin: 0;
+        padding: 24px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8%;
+        margin: 0 auto 24px auto;
+        display: block;
+    }
+    p, h3, li {
+        font-family: 'Outfit', sans-serif;
+    }
+    hr {
+        color: lightgray;
+    }
+    </style>
+</head>
+<body><div>
+    <main>
+    <img src="image-omelette.jpg" alt="Omelette">
+    <div class="omlette-photo-box"><h1 class="omlette-h">Simple Omlette Recipe</h1> 
+    <p class="omlette-p">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+    </div>
+    <div class="omelette-pre">
+        <h3 class="pre-h"> Preparation time</h3>
+        <ul class="pre-list">
+            <li class="pre-link"><strong>Total: </strong>Approximately 10 minutes</li>
+            <li class="pre-link"><strong>Preparation: </strong>5 minutes</li>
+            <li class="pre-link"><strong>Cooking: </strong>5 minutes</li>
+    </div>
+    <div class="ingredients">
+        <h2 class="i-h">Ingredients</h2>
+        <ul class="i-list">
+            <li class="i-link">2-3 large eggs</li>
+            <li class="i-link">Salt, to taste</li>
+            <li class="i-link"> Pepper, to taste</li>
+            <li class="i-link">1 tablespoon of butter or oil</li>
+            <li class="i-link">Optional fillings: cheese, diced vegetables, cooked meats, herbs </li>
+        </ul>
+    </div>
+    <hr>
+    <div class="instructions">
+        <h2 class="ins-h">Instructions</h2>
+        <ol class="ins-list">
+            <li class="ins-link"><strong>Beat the eggs: </strong>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.</li>
+            <li class="ins-link"><strong>Heat the pan: </strong>Place a non-stick frying pan over medium heat and add butter or oil. </li>
+            <li class="ins-link"><strong>Cook the omelette:</strong>  Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface. </li>
+            <li class="ins-link"><strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette</li>
+            <li class="ins-link"><strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate</li>
+            <li class="ins-link"><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed. </li>
+        </ol>
+    </div>
+    <div class="nutrition">
+        <h2 class="nt-h">Nutrition</h2>
+        <p class="nt-p">The table below shows nutritional values per serving without the additional fillings.</p>
+    </div>
+     <table>
+        <tbody>
+          <tr>
+            <td class="nt-names">Calories</td>
+            <td class="nt-weight">277kcal</td>
+          </tr>
+          <tr>
+            <td class="nt-names">Carbs</td>
+            <td class="nt-weight">0g</td>
+          </tr>
+          <tr>
+            <td class="nt-names">Protein</td>
+            <td class="nt-weight">20g</td>
+          </tr>
+          <tr>
+            <td class="nt-names">Fat</td>
+            <td class="nt-weight">22g</td>
+          </tr>
+        </tbody>
+      </table>
+      </main>
+    </div>
+</body>
+</html>
+<img src="" alt="">
